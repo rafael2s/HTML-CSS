@@ -1,4 +1,4 @@
-/* CABECALHO */
+/* HEADER */
 .cabecalhoPrincipal .container {
   display: flex;
   align-items: center;
@@ -8,6 +8,26 @@
 .cabecalhoPrincipal-nav {
    display: flex;
     
+}
+/* GRID COURSES*/
+
+.conteudoPrincipal-cursos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.conteudoPrincipal-cursos-link {
+  width: 23%;
+  margin: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+  margin-right: 0px;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+  margin-right: 0px;
 }
 
 /* FOOTER */
