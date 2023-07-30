@@ -20,4 +20,15 @@ p{
 
 body{
     font-family: Arial;
+    
+}
+
+div{
+    background: salmon;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    border: 10px solid #111;
+    margin: 30px;
+    text-align: center;
 }
